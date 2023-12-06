@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/header";
+import Header from "./components/Header";
 import ImageGrid from "./components/ImageGrid";
 import { Provider } from "react-redux";
 import { store } from "./utils/store";
