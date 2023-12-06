@@ -25,7 +25,7 @@ function ImageGrid() {
     );
   }
 
-  return (<>  <h1>{page}</h1>  <main className="grid_container">
+  return (<>  <p className="page_number">Your on page:  {page}</p>  <main className="grid_container">
     
       {/* map method used to populate data to cards */}
       {photos?.map((photo) => {
