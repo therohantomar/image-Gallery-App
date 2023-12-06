@@ -2,9 +2,10 @@
     display: flex;
     gap: 0.2em;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 95vw;
     text-align: center;
     justify-content: center;
+    margin-top: 20vh;
 }
 .item{
     width: 350px;
@@ -13,7 +14,7 @@
     background: #81eff1;
     box-shadow: 2px 2px 6px rgb(110, 109, 109);
     position: relative;
-    gap: 10em;
+
 }
 .item:nth-child(even){
     background: #81a1f1;
@@ -32,7 +33,6 @@
     right: 0;
     background-color: rgb(206, 206, 206);
     opacity: 0.8;
-    padding: 0.2em;
     display: flex;
     align-items: center;
     justify-content: space-between;
